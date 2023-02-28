@@ -1,0 +1,62 @@
+*{
+    font-family: 'Mynerve', cursive;
+}
+
+body {
+    background: linear-gradient(to right, #104547, #4B5358, #727072);
+    width: 100%;
+    height: 1000px;
+    align-items: center;
+    justify-content: center;
+ }
+
+ .container {
+    color: #104547;
+    width: 80vw;
+    max-width: 80%;
+    background-color:#495867;
+    height: 70vh;
+    box-shadow: 0 0 5px 4px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 8px;
+    text-align: center;
+ }
+
+ .score {
+    font-size: large;
+    font-weight: bold;
+ }
+ 
+ #user-score {
+    color: #EF9614;
+ }
+ 
+ #total-score {
+    color: #F6490F
+ }
+
+ .btn {
+    font-size: large;
+    font-weight: bold;
+    box-shadow: 0 6px 12px -2px rgba(#104547, .15);
+    background: #4B5358;
+    border-radius: 4px;
+    padding: 10px;
+    color: beige;
+    margin: 6px;
+    cursor: pointer;
+ }
+
+ .options {
+    padding: 10px;
+    order: 3;
+ }
+ 
+ .controls {
+    padding: 10px;
+    order: 4;
+ }
+
