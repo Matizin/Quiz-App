@@ -1,6 +1,6 @@
-var li_items = document.querySelectorAll(".sidebar ul li");
-var hamburger = document.querySelector(".hamburger");
-var swathe = document.querySelector(".swather");
+// var li_items = document.querySelectorAll(".sidebar ul li");
+// var hamburger = document.querySelector(".hamburger");
+// var swathe = document.querySelector(".swather");
 
 const _question = document.getElementById('question');
 const _options = document.querySelector('.quiz-options');
@@ -12,27 +12,6 @@ const _totalQuestion = document.getElementById('total-question');
 
 let correctAnswer = "", correctScore = askedCount = 0, totalQuestion = 10;
 
-//side bar
-li_items.forEach((li_item) => {
-    li_item.addEventListener("mouseenter", () => {
-
-        li_item.closest(".swathe").classList.remove("hover_collapse");
-
-    })
-})
-
-li_items.forEach((li_item) => {
-    li_item.addEventListener("mouseleave", () => {
-
-        li_item.closest(".swathe").classList.add("hover_collapse");
-
-    })
-})
-
-hamburger.addEventListener("click", () => {
-
-    hamburger.closest(".swathe").classList.toggle("hover_collapse");
-})
 // load question from API
 async function loadQuestion() {
     const APIUrl = 'https://opentdb.com/api.php?amount=1';
