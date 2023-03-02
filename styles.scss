@@ -2,6 +2,7 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
+    font-family: 'Mynerve', cursive;
 }
 
 :root {
@@ -27,6 +28,7 @@ header {
 
 header .container-fluid {
 
+    
     width: 100%;
     padding: 0 60px;
     display: flex;
@@ -38,7 +40,7 @@ header .container-fluid {
 @media(max-width:992px) {
 
     header .container-fluid {
-
+        margin-top: 6%;
         padding: 0 5%;
     }
 }
@@ -101,6 +103,11 @@ header .mobile-toggler {
     font-size: 30px;
 }
 
+a{
+    text-decoration: none;
+
+}
+
 /* modal */
 
 .modal-dialog {
@@ -109,7 +116,12 @@ header .mobile-toggler {
     width: 430px;
 }
 
-@media(max-width: 450px) {
+@media(max-width: 580px) {
+
+
+    header .container-fluid {
+       display: none;
+    }
 
     .modal-dialog {
 
@@ -132,15 +144,15 @@ header .mobile-toggler {
     align-items: center;
     width: 88%;
     margin: 0 auto;
-    padding-bottom: 16px;
+    //padding-bottom: 16px;
     border-bottom: 2px solid #fefefe;
 }
 
 .modal-header img {
 
     width: 140px;
-    height: 66px;
-    margin-top: 17.5px;
+    height: 50px;
+    //margin-top: 17.5px;
 }
 
 .modal-header .btn-close {
@@ -159,7 +171,7 @@ header .mobile-toggler {
 
     width: 88%;
     margin: 0 auto;
-    padding: 75px 0 0 0;
+    //margin: 75px 0 0 0;
     flex: unset;
 }
 
@@ -393,6 +405,13 @@ body {
 
 
 @media(max-width: 678px) {
+
+    header .container-fluid {
+        
+        margin-top: 15%;
+        padding: 0 5%;
+    }
+
     .wrapper {
         padding-left: 80px;
         width: 500px;
@@ -404,9 +423,7 @@ body {
     }
 
     .wrapper {
-        /* margin: 3rem 0;
-       width: 90%;
-       height: 90%; */
+     
         padding: 1.5rem 1rem 3rem 1rem;
         border-top-left-radius: 0;
         border-bottom-right-radius: 0;

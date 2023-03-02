@@ -1,0 +1,74 @@
+.button-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+  }
+  
+  .purple-button {
+    background-color: purple;
+    color: white;
+    font-size: 24px;
+    font-weight: bold;
+    border: none;
+    padding: 10px 20px;
+    margin: 20px;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+
+  .purple-button:hover{
+    color: purple;
+    background-color: aliceblue;
+    transition: 2s;
+  }
+
+  h1{
+    justify-content: center;
+    background-color: purple;
+  }
+
+  * {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Mynerve', cursive;
+}
+
+.about-container {
+    margin-top: 30%;
+    border-radius: 20px;
+    margin: 80px;
+    background-color: purple;
+    color: white;
+    padding: 20px;
+    margin-bottom: 20px;
+  }
+  
+  .about-container h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+  
+  .about-container p {
+    font-size: 18px;
+    line-height: 1.5;
+    margin-bottom: 20px;
+  }
+  
+  .btn {
+    background-color: white;
+    color: purple;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    font-size: 18px;
+    text-decoration: none;
+    display: inline-block;
+    transition: background-color 0.3s ease;
+  }
+  
+  .btn:hover {
+    background-color: #f2f2f2;
+  }
+  
