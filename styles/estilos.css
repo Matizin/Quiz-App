@@ -6,15 +6,16 @@
   }
   
   .purple-button {
-    background-color: purple;
-    color: white;
-    font-size: 24px;
-    font-weight: bold;
-    border: none;
-    padding: 10px 20px;
-    margin: 20px;
-    border-radius: 5px;
+    border-radius: 0.5rem;
+    font-weight: 600;
+    margin: 15px;
+    padding: 0.4rem 1.2rem;
     cursor: pointer;
+    border: 3px solid #8854C0;
+    background-color: #8854C0;
+    color: #fff;
+    box-shadow: 0 4px 0 0 #6c4298;
+    transition: 300ms;
   }
 
   .purple-button:hover{
